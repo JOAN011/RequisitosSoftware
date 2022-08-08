@@ -1,67 +1,13 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>STK-0005</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>STK-0006</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>STK-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>STK-0004</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
+<rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0009] aaaaa con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -73,13 +19,13 @@
 <rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
+<rem:type>C</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ORG-0001]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -89,78 +35,6 @@
 <rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [ORG-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [STK-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ORG-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ORG-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ORG-0001] E-Mart con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0009]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0009]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0009] aaaaa con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -205,7 +79,7 @@
 <rem:month>8</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [STK-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -214,7 +88,97 @@
 <rem:month>8</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0003]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [ORG-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ORG-0001] E-Mart con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0009]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ORG-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ORG-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0009]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [TRM-0002]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -241,25 +205,7 @@
 <rem:month>8</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [TRM-0002]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0003]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -269,186 +215,6 @@
 <rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([DAT-0033] Ciudad: String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>NFR-0005</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0001</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([DAT-0032] Identificación: String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>FRQ-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -469,20 +235,65 @@
 <rem:description><![CDATA[Eliminado el objeto [FRQ-0002]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [NFR-0001]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
 <rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -509,441 +320,99 @@
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([DAT-0031] Apellido: String)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([DAT-0034] Dirección: String)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([DAT-0035] Provincia: String)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0007] John García]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Placa: String] -> [Placa: int]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([DAT-0036] Placa: String)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([DAT-0040] Tipo de Combustible: String)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([DAT-0037] Marca: String)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([DAT-0038] Modelo: String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [vehiculo que es llevado para una revisión .] -> [vehiculo que es llevado para una revisión]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([DAT-0039] Año: int)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([DAT-0041] Tipo de Auto: String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([DAT-0042] Cliente Propietario: Cliente)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0002] Antony Encalada]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0009</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0001] Joan Riofrio]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada fuente [STK-0003] Joel Paul Cruz]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0005</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0005</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>NFR-0009</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>ACT-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Gerente] -> [Jefe de Centro]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>ACT-0002</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [al dueño de la librería, quien es la parte ejecutiva de la empresa] -> [al encargado de calificar los valores obtenidos de las revisiones y generar el informe correspondiente.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0009</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0003] Joel Paul Cruz]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>NFR-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>FRQ-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0007] John García]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>ACT-0003</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0005</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0005] Patricio Betancourt]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -955,363 +424,354 @@
 <rem:description><![CDATA[Eliminado el objeto [NFR-0012]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0006</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Yerick Espinoza]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº5 ([DAT-0049] AnioMax : int)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:owner>GLO-0005</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada fuente [STK-0003] Joel Paul Cruz]]></rem:description>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0005] Turno con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:owner>GLO-0005</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Yerick Espinoza]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Umbral] -> [Umbrales]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0007] Ingresar producto con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0005] Patricio Betancourt]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº4 ([DAT-0048] AnioMin : int)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0008] Informe económico con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0006] Factura con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:owner>GLO-0005</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada fuente [STK-0002] Antony Encalada]]></rem:description>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Se denomina a los parametros de calificacion que debe cumplir los vehiculos, en caso de que no cumpla se revisara con otro umbral buscando el cual coincida con los valores.] -> [ Se denomina a los parametros de calificacion que debe cumplir los vehiculos, en caso de que no cumpla se revisara con otro umbral buscando el cual coincida con los valores.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Yerick Espinoza]]></rem:description>
+<rem:description><![CDATA[Añadida traza desde [IRQ-0003] Umbral]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0005] Patricio Betancourt]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([DAT-0047] ValorMax : double)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0002] Factura con 8 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:owner>OBJ-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza desde [FRQ-0004] Registro Clientes]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0007] John García]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0007] John García]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([DAT-0045] ID : int)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0002] Registro de Ventas con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0005]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>TRM-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:owner>FRQ-0005</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+<rem:description><![CDATA[Añadida traza hacia [OBJ-0003] Reporte]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:owner>OBJ-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza desde [FRQ-0008] Asignar Vehiculos]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0005]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0007] John García]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>NFR-0009</rem:owner><rem:date>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza desde [FRQ-0006] Gestión de Umbrales]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada fuente [STK-0003] Joel Paul Cruz]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0003] Factura con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:owner>OBJ-0006</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Yerick Espinoza]]></rem:description>
+<rem:description><![CDATA[Añadida traza desde [FRQ-0011] Consultas]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0005] Patricio Betancourt]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([DAT-0046] ValorMin : double)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>7</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0006] Stalyn Cueva]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0009</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0005] Patricio Betancourt]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0009</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Yerick Espinoza]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Yerick Espinoza]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0005] Patricio Betancourt]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0006] Stalyn Cueva]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0002] Antony Encalada]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0007</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0007] John García]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Yerick Espinoza]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0005] Patricio Betancourt]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0006] Stalyn Cueva]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0001] Joan Riofrio]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0004] Yerick Espinoza]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0008</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0006] Stalyn Cueva]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0009</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0006] Stalyn Cueva]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0009</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0007] John García]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Yerick Espinoza]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0005] Patricio Betancourt]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0006] Stalyn Cueva]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0010</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0007] John García]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada fuente [STK-0005] Patricio Betancourt]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0004] Yerick Espinoza]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0005] Patricio Betancourt]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0006] Stalyn Cueva]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>NFR-0011</rem:owner><rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fuente [STK-0007] John García]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº6 ([DAT-0050] Clave : int)]]></rem:description>
 </rem:change>
 </rem:log>

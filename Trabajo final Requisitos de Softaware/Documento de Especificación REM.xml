@@ -389,9 +389,9 @@ Ninguno</rem:comments>
 <rem:objective
  oid = "OBJ-0001">
 <rem:name>
-Registro de Ventas</rem:name>
+Clasificar resultados</rem:name>
 <rem:version>
-<rem:major>1</rem:major>
+<rem:major>2</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
@@ -399,8 +399,8 @@ Registro de Ventas</rem:name>
 <rem:day>6</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0002 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:sources stakeholders ="STK-0002 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -408,14 +408,14 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir Automatizar los procesos de Registros de Ventas realizadas.</rem:description>
+clasificar los resultados obtenidos de las maquinas de Revision Tecnica Vehicular.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0002">
 <rem:name>
-Facturación</rem:name>
+Calificar resultados</rem:name>
 <rem:version>
-<rem:major>1</rem:major>
+<rem:major>2</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
@@ -423,8 +423,8 @@ Facturación</rem:name>
 <rem:day>6</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0002 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:sources stakeholders ="STK-0002 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -432,12 +432,12 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir Automatizar el proceso de facturación de una venta.</rem:description>
+debera calificar los resultados obtenidos en base a los <rem:ref oid="GLO-0005">umbrales</rem:ref> de calificacion.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0003">
 <rem:name>
-Reporte de Ventas</rem:name>
+Reporte</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -456,12 +456,12 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir informar  las ventas realizadas en periodos específicos de tiempo.</rem:description>
+realizar un informe de todos los resultados de calificacion en un pdf con formato predefinido.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0004">
 <rem:name>
-Inventario</rem:name>
+Seguridad</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -480,7 +480,71 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-llevar un control del inventario de la librería.</rem:description>
+controlar el acceso al sistema por perfiles de usuario.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0005">
+<rem:name>
+Almacenamiento</rem:name>
+<rem:version>
+<rem:major>2</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+almacenar solo la informacion relevante de las revisiones realizadas.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0006">
+<rem:name>
+Gestionamiento</rem:name>
+<rem:version>
+<rem:major>2</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+permitir al adminitrador gestionar los procesos de calificacion.</rem:description>
 </rem:objective>
 </rem:section>
 <rem:section
@@ -663,6 +727,77 @@ Cliente Propietario: Cliente</rem:description>
 Ninguno</rem:comments>
 </rem:specificData>
 </rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0003">
+<rem:name>
+<rem:ref oid="GLO-0005">Umbral</rem:ref></rem:name>
+<rem:version>
+<rem:major>2</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0004 STK-0005 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+Parametros de calificacion.</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>1000</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>3000</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0045">
+<rem:description>
+ID : int</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0046">
+<rem:description>
+ValorMin : double</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0047">
+<rem:description>
+ValorMax : double</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0048">
+<rem:description>
+AnioMin : int</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0049">
+<rem:description>
+AnioMax : int</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0050">
+<rem:description>
+Clave : int</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0010">
@@ -727,7 +862,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0004"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-clasificar las medidas en función de los umbrales asignados al año del vehículo.</rem:description>
+clasificar las medidas en función de los <rem:ref oid="GLO-0005">umbrales</rem:ref> asignados al año del vehículo.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0003">
@@ -804,7 +939,7 @@ presentar un informe detallado de la condición del vehículo.</rem:description>
 <rem:functionalRequirement
  oid = "FRQ-0006">
 <rem:name>
-Gestión de Umbrales</rem:name>
+Gestión de <rem:ref oid="GLO-0005">Umbrales</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -823,7 +958,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0002"/>
 <rem:description>
-permitir al administrador gestionar los Umbrales de calificación.</rem:description>
+permitir al administrador gestionar los <rem:ref oid="GLO-0005">Umbrales</rem:ref> de calificación.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0007">
@@ -895,7 +1030,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0002"/>
 <rem:description>
-evaluar la condición del vehículo con los umbrales asignados a su tipo.</rem:description>
+evaluar la condición del vehículo con los <rem:ref oid="GLO-0005">umbrales</rem:ref> asignados a su tipo.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0010">
@@ -919,7 +1054,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-registrar las modificaciones hechas a los umbrales.</rem:description>
+registrar las modificaciones hechas a los <rem:ref oid="GLO-0005">umbrales</rem:ref>.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0011">
@@ -935,7 +1070,7 @@ Consultas</rem:name>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 "/>
-<rem:sources stakeholders ="STK-0003 STK-0007 "/>
+<rem:sources stakeholders ="STK-0007 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -943,7 +1078,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir la consulta de los umbrales.</rem:description>
+permitir la consulta de los <rem:ref oid="GLO-0005">umbrales</rem:ref>.</rem:description>
 </rem:functionalRequirement>
 </rem:section>
 <rem:section
@@ -1001,7 +1136,7 @@ Seguridad</rem:name>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 "/>
-<rem:sources stakeholders ="STK-0003 STK-0007 "/>
+<rem:sources stakeholders ="STK-0007 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0003"/>
@@ -1009,7 +1144,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0002"/>
 <rem:description>
-garantizar que los umbrales sólo puedan ser gestionados por un administrador.</rem:description>
+garantizar que los <rem:ref oid="GLO-0005">umbrales</rem:ref> sólo puedan ser gestionados por un administrador.</rem:description>
 </rem:nonFunctionalRequirement>
 <rem:nonFunctionalRequirement
  oid = "NFR-0003">
@@ -1025,7 +1160,7 @@ Recuperabilidad</rem:name>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 "/>
-<rem:sources stakeholders ="STK-0003 STK-0007 "/>
+<rem:sources stakeholders ="STK-0007 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -1049,7 +1184,7 @@ Usabilidad</rem:name>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 "/>
-<rem:sources stakeholders ="STK-0002 STK-0003 STK-0007 "/>
+<rem:sources stakeholders ="STK-0002 STK-0007 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0003"/>
@@ -1073,7 +1208,7 @@ Documentación de Errores</rem:name>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 "/>
-<rem:sources stakeholders ="STK-0003 STK-0007 "/>
+<rem:sources stakeholders ="STK-0007 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -1096,8 +1231,8 @@ Documentacion</rem:name>
 <rem:day>7</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 STK-0006 "/>
-<rem:sources stakeholders ="STK-0002 STK-0003 STK-0007 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 STK-0006 STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 STK-0007 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -1120,8 +1255,8 @@ Seguridad</rem:name>
 <rem:day>7</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 STK-0006 "/>
-<rem:sources stakeholders ="STK-0002 STK-0003 STK-0007 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 STK-0006 STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 STK-0007 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -1144,8 +1279,8 @@ Diseño</rem:name>
 <rem:day>7</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 STK-0006 "/>
-<rem:sources stakeholders ="STK-0001 STK-0003 STK-0004 STK-0006 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 STK-0006 STK-0005 "/>
+<rem:sources stakeholders ="STK-0001 STK-0004 STK-0006 STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -1168,7 +1303,7 @@ Datos Unicos</rem:name>
 <rem:day>7</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 STK-0006 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 STK-0006 STK-0005 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1192,7 +1327,7 @@ Formato de Reporte</rem:name>
 <rem:day>7</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 STK-0006 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 STK-0006 STK-0005 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1216,7 +1351,7 @@ Validación de Datos</rem:name>
 <rem:day>7</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 STK-0006 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 STK-0006 STK-0005 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1275,7 +1410,7 @@ Casos de Uso del Sistema</rem:name>
 <rem:day>6</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 STK-0005 STK-0006 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 STK-0006 STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -1376,30 +1511,29 @@ Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>5.4.3 </rem:number>
 <rem:graphicFile
- oid = "GRF-0002">
+ oid = "GRF-0005">
 <rem:name>
-Registro de Ventas</rem:name>
+WireFrame UC0001</rem:name>
 <rem:version>
-<rem:major>1</rem:major>
+<rem:major>2</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>6</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0002 "/>
+<rem:authors stakeholders ="STK-0004 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\Images\285135103_440637891315689_1166024371527831833_n.png]]>
+<![CDATA[.\Images\WF-UC0001.png]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:useCase
  oid = "UC-0001">
 <rem:name>
-Registrar venta</rem:name>
+Iniciar Sesion</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1418,11 +1552,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-El use case recibirá la información de la compra de un producto y la cargará en una lista de productos, que podrá ser modificada y guardada</rem:triggeringEvent>
+</rem:triggeringEvent>
 <rem:precondition>
-El actor se haya autenticado en el sistema<br/>El actor haya ingresado a la plantilla REGISTRAR VENTA</rem:precondition>
+</rem:precondition>
 <rem:postcondition>
-El sistema registra la venta de un producto.<br/>El sistema verificó existencias.<br/>El sistema actualiza la existencia del producto vendido.</rem:postcondition>
+</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1556,129 +1690,25 @@ Ninguno</rem:comments>
 </rem:step>
 </rem:useCase>
 <rem:graphicFile
- oid = "GRF-0003">
+ oid = "GRF-0006">
 <rem:name>
-<rem:ref oid="GLO-0006">Factura</rem:ref></rem:name>
+WireFrame UC0006</rem:name>
 <rem:version>
-<rem:major>1</rem:major>
+<rem:major>2</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>6</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0002 "/>
+<rem:authors stakeholders ="STK-0004 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\Images\290453404_1059090688303220_2672575176154175832_n.png]]>
+<![CDATA[.\Images\WF-UC0006.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:useCase
- oid = "UC-0002">
-<rem:name>
-<rem:ref oid="GLO-0006">Factura</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:sources stakeholders ="STK-0002 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0002"/>
-<rem:stability value = "SBV-0002"/>
-<rem:triggeringEvent>
-El use case obtendrá los datos de una venta calculada y los cargará directamente en el formulario según corresponda, registra datos típicos de una <rem:ref oid="GLO-0006">factura</rem:ref> y la guarda o imprime.</rem:triggeringEvent>
-<rem:precondition>
-El actor haya registrado una venta<br/>El actor haya ingresado a la pantalla GENERAR <rem:ref oid="GLO-0006">FACTURA</rem:ref></rem:precondition>
-<rem:postcondition>
-El sistema generaró una <rem:ref oid="GLO-0006">factura</rem:ref>.<br/>El sistema guardó <rem:ref oid="GLO-0006">factura</rem:ref> generada en formato PDF</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-<rem:step oid = "STP-0022">
-<rem:number>1</rem:number>
-<rem:systemAction>
-<rem:description>
-carga todos los datos de una venta registrada en los componentes: FECHA, LISTA DE PRODUCTOS Y FORMA DE PAGO</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0023">
-<rem:number>2</rem:number>
-<rem:systemAction>
-<rem:description>
-el sistema calculará los valores para: SUBTOTAL, DESCUENTO, IVA Y TOTAL</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0024">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-ingresar datos del cliente (cédula, apellidos y nombres, fecha de emisión, teléfono) en la pantalla GENERAR <rem:ref oid="GLO-0006">FACTURA</rem:ref></rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0025">
-<rem:number>4</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-selecciona botón Imprimir</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0026">
-<rem:number>5</rem:number>
-<rem:systemAction>
-<rem:description>
-convierte los datos del formulario en un formato imprimible (PDF) y lo manda a una cola de impresión</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0027">
-<rem:number>6</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-Selecciona botón Guardar</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0029">
-<rem:number>7</rem:number>
-<rem:systemAction>
-<rem:description>
-convierte los datos del formulario en un formato imprimible (PDF) y los guarda en el equipo</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0030">
-<rem:number>8</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra un mensaje de confirmación de que se ha guardado con éxito</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-</rem:useCase>
 </rem:section>
 </rem:section>
 </rem:section>
@@ -1733,9 +1763,9 @@ Ninguno</rem:comments>
 <rem:tr>
 <rem:th oid ="UC-0001"/>
 <rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -1744,19 +1774,130 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
+</rem:traceabilityMatrix>
+<rem:traceabilityMatrix
+ oid = "TRM-0002">
+<rem:name>
+Requisitos - Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>8</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:comments>
+Ninguno</rem:comments>
 <rem:tr>
-<rem:th oid ="UC-0002"/>
+<rem:th/>
+<rem:th oid ="OBJ-0001"/>
+<rem:th oid ="OBJ-0002"/>
+<rem:th oid ="OBJ-0003"/>
+<rem:th oid ="OBJ-0004"/>
+<rem:th oid ="OBJ-0005"/>
+<rem:th oid ="OBJ-0006"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0001"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0003"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0004"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0006"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0011"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 </rem:traceabilityMatrix>
 </rem:section>
@@ -1780,70 +1921,21 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0005">
 <rem:name>
-<rem:ref oid="GLO-0005">Turno</rem:ref></rem:name>
+<rem:ref oid="GLO-0005">Umbrales</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
 <rem:month>8</rem:month>
-<rem:day>6</rem:day>
+<rem:day>8</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0004 "/>
+<rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Es un horario de trabajo que se asigna a un empleado, serán las horas durante las cuales el vendedor atenderá la librería.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0006">
-<rem:name>
-<rem:ref oid="GLO-0006">Factura</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>Es un comprobante de la venta de uno o más productos de la librería.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0007">
-<rem:name>
-<rem:ref oid="GLO-0007">Ingresar producto</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>Se refiere a la actualización del inventario con los productos adquiridos con el fin de restablecer las existencias.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0008">
-<rem:name>
-<rem:ref oid="GLO-0008">Informe económico</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2022</rem:year>
-<rem:month>8</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>Informe de las ventas realizadas ya sea durante un <rem:ref oid="GLO-0005">turno</rem:ref>, un día, semana o mes de ventas.</rem:text>
+<rem:text> Se denomina a los parametros de calificacion que debe cumplir los vehiculos, en caso de que no cumpla se revisara con otro <rem:ref oid="GLO-0005">umbral</rem:ref> buscando el cual coincida con los valores.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section
@@ -1930,23 +2022,50 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "UC-0002"  target = "FRQ-0010" >
+<rem:trace source = "FRQ-0007"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0001"  target = "FRQ-0004" >
+<rem:trace source = "FRQ-0001"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0001"  target = "FRQ-0002" >
+<rem:trace source = "FRQ-0005"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0001"  target = "FRQ-0003" >
+<rem:trace source = "FRQ-0002"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0008"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0009"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0004"  target = "OBJ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0010"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0006"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0003"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0011"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GRF-0005"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
 <rem:predefinedValueType
- oid = "PVT-0001">
+ oid = "PVT-0006">
 <rem:name>
-Real</rem:name>
+Time</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1957,9 +2076,9 @@ Real</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type</rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
-Real numbers</rem:description>
+Hour:minutes:seconds</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -1981,6 +2100,27 @@ Integer</rem:name>
 Predefined OCL type</rem:comments>
 <rem:description>
 Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Real numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -2048,165 +2188,54 @@ Dates</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0006">
-<rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
 <rem:name>Imprecisión</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
@@ -2215,10 +2244,100 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
 <rem:name>Otro</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
@@ -2227,17 +2346,14 @@ Hour:minutes:seconds</rem:description>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
@@ -2245,11 +2361,17 @@ Hour:minutes:seconds</rem:description>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
@@ -2257,26 +2379,23 @@ Hour:minutes:seconds</rem:description>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
-</rem:statusValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
 </rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
@@ -2284,32 +2403,32 @@ Hour:minutes:seconds</rem:description>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
